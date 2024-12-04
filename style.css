@@ -15,13 +15,18 @@ ul {
     margin: -67px 323px;
     padding: 0 0;
     overflow: hidden;
+
 }
+
 
 li {
     float: left;
     padding: 16px;
 }
-
+li:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
 .button img {
     height: 20px;
     width: 20px;
@@ -37,7 +42,11 @@ li {
 .heading img {
     height: 100%;
     width: 100%;
+    transition: transform 0.5s ease-in-out;
 
+}
+.heading:hover{
+    transform: scalex(1.1);
 }
 
 .heading {
@@ -54,9 +63,12 @@ li {
     height: 40vh;
     width: 15vw;
     margin: 0px 20px;
+    transition: transform 0.5s ease-in-out;
 
 }
-
+.items img:hover{
+    transform: scale(1.1);
+}
 .items {
     margin: 0px 54px;
 }
@@ -64,8 +76,13 @@ li {
 .i img {
     height: 30vh;
     width: 14vw;
+    transition: transform 0.5s ease-in-out;
 
 }
+.i:hover{
+    transform: scale(0.9);
+}
+
 
 .p1 {
     display: flex;
@@ -87,6 +104,11 @@ li {
 .i1 img {
     height: 30vh;
     width: 14vw;
+    transition: transform 0.5s ease-in-out;
+
+}
+.i1:hover{
+    transform: scale(0.9);
 }
 
 .i1 {
@@ -108,6 +130,11 @@ li {
     height: 30vh;
     width: 10vw;
     padding: 0px 10px;
+    transition: transform 0.5s ease-in-out;
+
+}
+.i2:hover{
+    transform: scale(0.9);
 }
 
 .i2 {
@@ -124,6 +151,11 @@ li {
 .nightcream img {
     height: 100%;
     width: 100%;
+    transition: transform 0.5s ease-in-out;
+
+}
+.nightcream:hover{
+    transform: scaleX(1.1);
 }
 
 .nightcream {
@@ -139,6 +171,10 @@ li {
 .i3 img {
     height: 30vh;
     width: 14vw;
+    transition: transform 0.5s ease-in-out;
+}
+.i3:hover{
+    transform: scale(0.9);
 }
 
 .i3 {
@@ -159,7 +195,11 @@ li {
 .c1 img {
     height: 45vh;
     width: 15vw;
-    padding: 0px 2px;
+    padding: 0px 20px;
+    transition: transform 0.5s ease-in-out;
+}
+.c1:hover{
+    transform: scale(0.9);
 }
 
 .card {
@@ -177,7 +217,10 @@ li {
     height: 60vh;
     width: 20vw;
     padding: 0px 20px;
-
+    transition: transform 0.5s ease-in-out;
+}
+.s1 :hover{
+    transform: scale(0.9);
 }
 
 .card1 {
@@ -193,8 +236,12 @@ li {
 
 .a1 img {
     height: 50vh;
-    width: 15vw;
+    width: 17.5vw;
     padding: 0px 20px;
+    transition: transform 0.5s ease-in-out;
+}
+.a1 :hover{
+    transform: scale(1.1);
 }
 
 .card2 {
@@ -211,6 +258,10 @@ li {
 .i4 img {
     height: 30vh;
     width: 14vw;
+    transition: transform 0.5s ease-in-out;
+}
+.i4:hover{
+    transform: scale(0.9);
 }
 
 .i4 {
@@ -232,6 +283,10 @@ li {
     height: 55vh;
     width: 20vw;
     padding: 0px 10px;
+    transition: transform 0.5s ease-in-out;
+}
+.b1:hover{
+    transform: scale(1.1);
 }
 
 .prize {
@@ -249,6 +304,10 @@ li {
     height: 55vh;
     width: 20vw;
     padding: 0px 5px;
+    transition: transform 0.5s ease-in-out;
+}
+.h1 :hover{
+    transform: scale(0.9);
 }
 
 .hair1 {
@@ -266,6 +325,10 @@ li {
     height: 45vh;
     width: 17vw;
     padding: 0px 10px;
+    transition: transform 0.5s ease-in-out;
+}
+.m1 :hover{
+    transform: scale(1.1);
 }
 
 .model {
@@ -311,17 +374,7 @@ p {
     color: #666;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-}
 
 
 .media-section {
@@ -382,10 +435,17 @@ video {
     color: #333;
     flex-shrink: 0;
 }
+.title:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
 
 .content {
     color: #666;
     max-width: calc(100% - 200px);
+}
+.content:hover{
+    text-decoration: underline;
 }
 
 .row:not(:last-child) {
